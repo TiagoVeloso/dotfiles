@@ -80,6 +80,9 @@ brew install homebrew/dupes/screen
 # brew install xpdf
 # brew install xz
 
+# Install Android SDK
+brew install android-sdk
+
 # Install other useful binaries.
 brew install ack
 # brew install dark-mode
