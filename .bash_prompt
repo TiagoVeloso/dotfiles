@@ -113,7 +113,6 @@ PS1+="\[${white}\]:";
 PS1+="\[${green}\]\w";
 PS1+="\$(prompt_git \" ${cyan}\")";
 PS1+="\[${white}\] \$ \[${reset}\]";
-
 # PS1+="\[${bold}\]\n"; # newline
 # PS1+="\[${userStyle}\]\u"; # username
 # PS1+="\[${white}\] at ";
