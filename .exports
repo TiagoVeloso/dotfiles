@@ -25,5 +25,7 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 export JAVA_HOME="$(/usr/libexec/java_home)"
 export ANDROID_HOME="/usr/local/opt/android-sdk"
