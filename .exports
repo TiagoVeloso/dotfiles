@@ -25,6 +25,9 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
+# User Homebrews rbEnv
+export RBENV_ROOT=/usr/local/var/rbenv
+
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export JAVA_HOME="$(/usr/libexec/java_home)"

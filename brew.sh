@@ -83,6 +83,9 @@ brew install homebrew/dupes/screen
 # Install Android SDK
 brew install android-sdk
 
+# Install rbenv
+brew install rbenv
+
 # Install other useful binaries.
 brew install ack
 # brew install dark-mode
