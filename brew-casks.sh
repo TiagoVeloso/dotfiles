@@ -6,4 +6,5 @@ brew cask install sourcetree
 brew cask install telegram
 brew cask install textmate
 brew cask install totalterminal
-brew cask install the-unarchiver
+brew cask install the-unarchiverbrew cask install android-studio
+brew cask install dropbox
