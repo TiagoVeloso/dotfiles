@@ -1,3 +1,6 @@
+# Usage tap 'homebrew/bundle'
+# Then 'brew bundle'
+
 tap 'homebrew/bundle'
 tap 'homebrew/versions'
 

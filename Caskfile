@@ -19,6 +19,7 @@ cask 'nvalt'
 cask 'sourcetree'
 cask 'the-unarchiver'
 cask 'transmission'
+cask 'java' unless system '/usr/libexec/java_home --failfast'
 
 cask 'android-studio'
 # cask 'virtualbox'
@@ -26,5 +27,11 @@ cask 'android-studio'
 # cask 'ukelele'
 
 # Some useful QuickLook plugins
-# cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch
-# cask install quicklook-csv betterzipql webp-quicklook suspicious-package
+cask 'qlcolorcode'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
+cask 'betterzipql'
+cask 'qlimagesize'
+cask 'webpquicklook'
