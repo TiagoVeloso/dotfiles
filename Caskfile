@@ -1,0 +1,30 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+# Casks
+tap 'caskroom/cask'
+brew 'caskroom/cask/brew-cask'
+
+# Install Casks
+cask 'alfred'
+cask 'appcleaner'
+cask 'atom'
+cask 'caffeine'
+cask 'flux'
+cask 'dropbox'
+cask 'evernote'
+cask 'google-drive'
+cask 'iterm2'
+cask 'nvalt'
+cask 'sourcetree'
+cask 'the-unarchiver'
+cask 'transmission'
+
+cask 'android-studio'
+# cask 'virtualbox'
+# cask 'slack'
+# cask 'ukelele'
+
+# Some useful QuickLook plugins
+# cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch
+# cask install quicklook-csv betterzipql webp-quicklook suspicious-package
