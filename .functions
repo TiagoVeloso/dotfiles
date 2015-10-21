@@ -209,11 +209,21 @@ function getcertnames() {
 
 # `a` with no arguments opens the current directory in Atom Editor, otherwise
 # opens the given location
-function a() {
+# function a() {
+# 	if [ $# -eq 0 ]; then
+# 		atom .;
+# 	else
+# 		atom "$@";
+# 	fi;
+# }
+
+# `m` with no arguments opens the current directory in Textmate Editor, otherwise
+# opens the given location
+function m() {
 	if [ $# -eq 0 ]; then
-		atom .;
+		mate .;
 	else
-		atom "$@";
+		mate "$@";
 	fi;
 }
 
