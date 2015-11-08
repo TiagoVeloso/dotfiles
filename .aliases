@@ -40,6 +40,13 @@ export LS_COLORS="no=00:fi=00:di=36:ln=35:pi=30;44:so=35;44:do=35;44:bd=33;44:cd
 # Solarized colorscheme for OS X `ls` environment variable:
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
+
+# Always enable colored `grep` output
+# Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
